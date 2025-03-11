@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#0A3D32"/>
+  
+  <!-- Mandala Pattern -->
+  <g transform="translate(250,250)">
+    <circle cx="0" cy="0" r="150" stroke="#FFD700" stroke-width="5" fill="none"/>
+    <circle cx="0" cy="0" r="130" stroke="#FFD700" stroke-width="4" fill="none"/>
+    
+    <!-- Radial lines -->
+    <g stroke="#FFD700" stroke-width="3">
+      <line x1="0" y1="-150" x2="0" y2="150"/>
+      <line x1="-150" y1="0" x2="150" y2="0"/>
+      <line x1="-106" y1="-106" x2="106" y2="106"/>
+      <line x1="106" y1="-106" x2="-106" y2="106"/>
+    </g>
+    
+    <!-- Inner decorative elements -->
+    <circle cx="0" cy="0" r="50" stroke="#FFD700" stroke-width="3" fill="none"/>
+    <circle cx="0" cy="0" r="30" stroke="#FFD700" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Brand Name -->
+  <text x="50%" y="380" font-family="'Times New Roman', Serif" font-size="40" fill="#FFD700" text-anchor="middle">Textile Mania</text>
+  
+  <!-- Tagline -->
+  <text x="50%" y="420" font-family="'Times New Roman', Serif" font-size="20" fill="#FFD700" text-anchor="middle">Creating Homes, Creating Memories</text>
+</svg>
